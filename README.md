@@ -39,13 +39,26 @@ A seção de comentários não está implementada no projeto original.
 
 ___
 
-#### React Gram
+### React Gram
 
 Este projeto é o mais complexo do repositório atualmente. Consiste num clone de ponta a ponta do Instagram.
 
 Ele utiliza Redux, MongoDB e uma API RESTful baseada em mongoose e express.js
 
 No caso deste, é necessário que ambas a API e o front-end estejam rodando simultaneamente para o projeto funcionar
+
+___
+
+### To Do List React+TS
+
+Este projeto é o mais simples do repositório, visava abordar a integração de ambos React e Typescript.
+
+__
+
+### Site com API do TMDB
+
+Um site simples sobre filmes, construído em typescript, baseado na [API do TMDB](https://www.themoviedb.org/?language=pt-BR).
+
 
 
 
