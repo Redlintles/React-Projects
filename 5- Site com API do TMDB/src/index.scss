@@ -1,0 +1,77 @@
+@import "./styles/variables";
+@import "./styles/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+
+body {
+  background-color: $main-bg-color;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: unset;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  width: 100%;
+}
+
+main {
+  padding: 5rem 0;
+}
+
+.movie-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin: 0 auto;
+  padding: 0 5vw;
+  gap: 2rem;
+
+  @include responsive(768px, "min-width") {
+    padding: 0 7.5vw;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  @include responsive(1200px, "min-width") {
+    padding: 0 10vw;
+    grid-template-columns: repeat(3, 1fr);
+
+  }
+}
+
+.btn {
+  background-color: $primary-color;
+  color: $sec-bg-color;
+  border: 1px solid $primary-color;
+  transition: .5s ease;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+  border-radius: 5px;
+
+  &:hover {
+    background-color: $sec-bg-color;
+    color: $primary-color
+  }
+
+}

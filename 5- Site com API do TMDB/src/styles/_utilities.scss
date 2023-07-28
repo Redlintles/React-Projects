@@ -1,0 +1,6 @@
+@mixin responsive($width, $maxOrMin) {
+  @media($maxOrMin: $width) {
+    @content
+  }
+
+}

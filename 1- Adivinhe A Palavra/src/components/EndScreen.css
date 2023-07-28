@@ -1,0 +1,15 @@
+.endscreen {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.endscreen__title,
+.endscreen__score {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.endscreen__score > span {
+  color: yellow
+}

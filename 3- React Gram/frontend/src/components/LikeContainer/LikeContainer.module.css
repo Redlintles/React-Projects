@@ -1,0 +1,13 @@
+.likeContainer {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #363636;
+  border-bottom: 1px solid #363636;
+  padding: 1rem 0;
+}
+
+.likeContainer > svg {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-right: 1rem;
+}

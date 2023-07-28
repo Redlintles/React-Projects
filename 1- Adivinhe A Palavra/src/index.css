@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Helvetica", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+input {
+  outline: none;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+html, main, body {
+  height: 100%;
+}

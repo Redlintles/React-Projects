@@ -1,0 +1,28 @@
+.btn {
+  cursor: pointer;
+  width: min-content;
+}
+
+.btn--skin {
+  border-radius: 25px;
+  border: 1px solid white;
+  text-transform: uppercase;
+  background-color: #1646a0;
+  color: white;
+  padding: 1rem 2rem;
+  font-size: .9rem;
+  font-weight: bold;
+  transition: .4s;
+  white-space: nowrap;
+}
+
+.btn:hover {
+  background-color: #0923AF;
+}
+
+@media(min-width: 1200px) {
+  .btn--skin {
+    padding: 1rem 3rem;
+    font-size: 1.2rem;
+  }
+}

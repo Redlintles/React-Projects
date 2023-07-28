@@ -1,0 +1,58 @@
+.profile  {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.profileHeader {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  border-bottom: 1px solid #363636;
+}
+
+.profileHeader > img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 2rem;
+}
+.profileDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.newPhoto {
+  padding: 1rem;
+  border-bottom: 1px solid #363636;
+}
+
+.userPhotos {
+  width: 50%;
+  margin: 2rem auto;
+}
+
+.userPhotos > h2 {
+  margin-bottom: 1rem;
+}
+
+.photoContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem 1rem;
+  grid-auto-flow: row;
+  grid-auto-rows: 250px;
+}
+
+.editPhoto {
+  margin-bottom: 1rem;
+}
+
+.editPhoto img {
+  width: 100%;
+  margin-bottom: 1rem;
+  
+}
+

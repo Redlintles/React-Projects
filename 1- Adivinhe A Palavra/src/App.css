@@ -1,0 +1,17 @@
+main {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-image: linear-gradient(to bottom,#0923AF 75%, #000);
+  color: #fff;
+  min-height: 100vh;
+  padding: 1rem 0;
+}
+
+@media(min-width: 1200px) {
+  main {
+    padding: 3rem;
+  }
+}
+
+

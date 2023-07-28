@@ -1,0 +1,38 @@
+@import "../../styles/variables";
+
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  background-color: $sec-bg-color;
+  padding: 1rem;
+  justify-content: center;
+  gap: 1rem;
+
+}
+
+.card {
+
+  &__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    gap: 1rem;
+
+  }
+  &__title {
+    color: white;
+    text-align: center;
+  }
+
+  &__score {
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    & > svg {
+      color: $primary-color;
+      margin-right: .5rem;
+    }
+  }
+
+}

@@ -1,0 +1,22 @@
+@import "../../styles/mixins&placeholders";
+@import "../../styles/variables";
+
+.taskContainer {
+  
+  margin: 3rem auto;
+  @extend %flex-col-center;
+  padding: 0 1rem;
+
+  @include responsive("576px", "min-width") {
+    width: 400px;
+  }
+
+  & > h2 {
+    margin-bottom: 1rem;
+  }
+
+  & > p {
+    color: #777;
+    font-size: .9rem;
+  }
+}

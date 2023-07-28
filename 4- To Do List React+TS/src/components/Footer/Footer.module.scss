@@ -1,0 +1,20 @@
+@import "../../styles/variables";
+
+.footer {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $bg-color;
+
+  &__copy {
+    font-size: 1.1rem;
+    color: white;
+    font-weight: bold;
+
+    & > span {
+      color: $primary-color;
+      margin-right: .5rem;
+    }
+  }
+}
